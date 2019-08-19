@@ -14,5 +14,7 @@ def add_post
 post.author = self 
 end 
 
+def posts 
+
 
 end 

@@ -13,10 +13,10 @@ end
 
 def author_name 
  if 
-   self.author.name 
+   self.author.name.nil? 
+   nil 
+ else 
    self.author.name
-   else 
-     nil 
 end 
 end 
 end 

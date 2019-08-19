@@ -11,7 +11,7 @@ def self.all
   @@all
 end
 def author_name 
-  if self.author.nil?
+  if 
   self.author.name == nil 
   nil
 else 

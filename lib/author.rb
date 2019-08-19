@@ -4,6 +4,9 @@ class Author
   def initialize(name) 
     @name = name 
   end 
-  def posts
+  def add_post_by_title(title)
+  post = Post.new(title) 
+  song.artist = self 
+end 
 end 
 end 

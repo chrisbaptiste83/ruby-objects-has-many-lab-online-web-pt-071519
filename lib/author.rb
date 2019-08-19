@@ -15,6 +15,6 @@ post.author = self
 end 
 
 def posts 
-Post.all 
+Post.all.select do |post| post. 
 
 end 

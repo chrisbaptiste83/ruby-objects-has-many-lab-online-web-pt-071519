@@ -10,6 +10,6 @@ class Author
   post.author = self 
 end 
 
-
+post.author = self 
 end 
 end 

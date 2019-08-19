@@ -17,8 +17,6 @@ def author_name
    self.author.name 
  else 
    return nil 
- else 
-   self.author.name
 end 
 end 
 end 
